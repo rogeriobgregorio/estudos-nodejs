@@ -84,10 +84,5 @@ Criar uma função que gera um array contendo os primeiros **N** números pares.
 
 ---
 
-## 📄 Licença
-Este projeto está sob a licença MIT.
-
----
-
 📌 **Autor:** Rogério Gregório
 
