@@ -135,6 +135,6 @@ src/
 
 ---
 
-## 📌 **Autor**
-Desenvolvido por **[Seu Nome]** 🚀
-```
+## 📌 Autor  
+
+**Rogério Gregório** 
