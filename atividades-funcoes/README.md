@@ -84,5 +84,7 @@ Criar uma função que gera um array contendo os primeiros **N** números pares.
 
 ---
 
-📌 **Autor:** Rogério Gregório
+## 📌 Autor  
+
+**Rogério Gregório**  
 
