@@ -1,7 +1,7 @@
 
 ## Gerenciamento de Usuários com Node.js
 
-```markdown
+
 # 🛠️ API de Gerenciamento de Usuários
 
 Este projeto é uma API RESTful para gerenciamento de usuários, desenvolvida com **Node.js**, **Express**, **Sequelize** e **JWT**.  
