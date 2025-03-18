@@ -16,8 +16,8 @@ A API permite registro, autenticação e administração de usuários, com prote
 - [🔑 Configuração](#configuração)
 - [🚀 Rodando a Aplicação](#rodando-a-aplicação)
 - [📌 Rotas da API](#rotas-da-api)
+- [🧪 Testando as Rotas](#testando-as-rotas)
 - [📂 Estrutura do Projeto](#estrutura-do-projeto)
-- [📜 Licença](#licença)
 
 ---
 
@@ -97,6 +97,205 @@ A API rodará em: `http://localhost:3000/`
 | DELETE | `/api/users/:id` | Deleta um usuário               | ✅ |
 
 - `✅` = Requer token JWT (`Authorization: Bearer <token>`)
+
+---
+
+## 🧪 **Testando as Rotas**  
+
+### 🔹 Iniciando o Servidor  
+
+```bash
+npm run dev
+```  
+
+---
+
+### 🔹 Registro de Usuário (POST `/api/auth/register`)  
+
+**Requisição:**  
+
+```json
+{
+  "name": "Usuário Teste",
+  "email": "teste@example.com",
+  "password": "senha123",
+  "role": "CLIENT"
+}
+```  
+
+**Resposta esperada (201 Created):**  
+
+```json
+{
+  "id": 1,
+  "name": "Usuário Teste",
+  "email": "teste@example.com",
+  "role": "CLIENT"
+}
+```  
+
+---
+
+### 🔹 Login (POST `/api/auth/login`)  
+
+**Requisição:**  
+
+```json
+{
+  "email": "teste@example.com",
+  "password": "senha123"
+}
+```  
+
+**Resposta esperada:**  
+
+```json
+{
+  "access_token": "jwt_token"
+}
+```  
+
+---
+
+### 🔹 Consultar Dados do Usuário Autenticado (GET `/users/me`)  
+
+**Requisição:**  
+
+- **Método:** GET  
+- **URL:** `http://localhost:3000/api/users/me`  
+- **Headers:**  
+
+```makefile
+Authorization: Bearer jwt_token_aqui
+```  
+
+**Resposta esperada:**  
+
+```json
+{
+  "id": 1,
+  "name": "Usuário Teste",
+  "email": "teste@example.com",
+  "role": "CLIENT"
+}
+```  
+
+---
+
+### 🔹 Listar Usuários (GET `/users`)  
+
+#### 🚀 Criando um Usuário ADMIN  
+
+Se já existir um usuário ADMIN, pule esta etapa. Caso contrário, atualize o banco de dados SQLite:  
+
+```sql
+UPDATE Users SET role = 'ADMIN' WHERE email = 'teste@example.com';
+```  
+
+#### 🔑 Obtendo Token de ADMIN  
+
+Faça login com um usuário ADMIN:  
+
+```json
+{
+  "email": "teste@example.com",
+  "password": "senha123"
+}
+```  
+
+#### Requisição  
+
+- **Método:** GET  
+- **URL:** `http://localhost:3000/api/users`  
+- **Headers:**  
+
+```makefile
+Authorization: Bearer jwt_token_aqui
+```  
+
+**Resposta esperada:**  
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Usuário Teste",
+    "email": "teste@example.com",
+    "role": "ADMIN"
+  },
+  {
+    "id": 2,
+    "name": "Outro Usuário",
+    "email": "outro@example.com",
+    "role": "CLIENT"
+  }
+]
+```  
+
+Se um usuário não ADMIN tentar acessar, a resposta será:  
+
+```json
+{
+  "message": "Acesso negado. Apenas administradores podem realizar esta ação."
+}
+```  
+
+---
+
+### 🔹 Atualizar Usuário (PUT `/users/:id`)  
+
+**Requisição:**  
+
+- **Método:** PUT  
+- **URL:** `http://localhost:3000/api/users/1`  
+- **Headers:**  
+
+```makefile
+Authorization: Bearer jwt_token_aqui
+```  
+
+- **Corpo:**  
+
+```json
+{
+  "name": "Novo Nome",
+  "email": "novoemail@example.com",
+  "password": "nova_senha123"
+}
+```  
+
+**Resposta esperada:**  
+
+```json
+{
+  "id": 1,
+  "name": "Novo Nome",
+  "email": "novoemail@example.com",
+  "role": "CLIENT"
+}
+```  
+
+---
+
+### 🔹 Deletar Usuário (DELETE `/users/:id`)  
+
+**Requisição:**  
+
+- **Método:** DELETE  
+- **URL:** `http://localhost:3000/api/users/1`  
+- **Headers:**  
+
+```makefile
+Authorization: Bearer jwt_token_aqui
+```  
+
+**Resposta esperada:**  
+
+```json
+{
+  "message": "Usuário deletado com sucesso"
+}
+```  
 
 ---
 
