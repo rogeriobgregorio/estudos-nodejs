@@ -1,4 +1,5 @@
 const UserService = require("../services/UserService");
+const logEvent = require("../services/LogService");
 
 const UserController = {
   // Criar novo usuário
@@ -13,6 +14,8 @@ const UserController = {
 
     UserService.createUser(name, email, password, role, (err, userId) => {
       if (err) return res.status(400).json({ error: err.message });
+
+      logEvent(`Conta criada - Usuário ID: ${userId}`);
       res.status(201).json({ message: "Usuário criado com sucesso!", userId });
     });
   },
@@ -48,6 +51,8 @@ const UserController = {
 
     UserService.deleteUser(id, (err, message) => {
       if (err) return res.status(400).json({ error: err.message });
+
+      logEvent(`Conta excluída - Usuário ID: ${id}`);
       res.json({ message });
     });
   },
