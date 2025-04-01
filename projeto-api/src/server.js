@@ -1,8 +1,8 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const userRoutes = require("./routes/userRoutes");
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 // Configurações básicas do servidor
 app.use(cors());
@@ -14,11 +14,23 @@ app.get("/", (req, res) => {
 });
 
 // Rotas de usuário
+const userRoutes = require("./routes/userRoutes");
 app.use("/api", userRoutes);
 
+// Rotas de autenticação
+const authRoutes = require("./routes/authRoutes");
+app.use("/api", authRoutes);
 
-// Porta do servidor
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta http://localhost:${PORT}`);
-});
+// Rotas de alteração de senha
+const passwordRoutes = require("./routes/passwordRoutes");
+app.use("/api", passwordRoutes);
+
+
+// Só inicie o servidor se não estiver em ambiente de teste
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app; // Exporta o app para ser usado nos testes
