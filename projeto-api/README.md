@@ -1,7 +1,4 @@
 
-
----
-
 ## **📌 Requisitos Funcionais (RF)**  
 ### **1️⃣ Autenticação e Autorização**  
 ✅ RF-01: Permitir que usuários façam login com e-mail e senha.  
