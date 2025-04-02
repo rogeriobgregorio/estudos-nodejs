@@ -12,24 +12,6 @@ beforeAll((done) => {
   server.listen(done);
 });
 
-afterAll((done) => {
-  server.close(done);
-});
-
-afterAll(async () => {
-  return new Promise((resolve, reject) => {
-    db.close((err) => {
-      if (err) {
-        console.error("Erro ao fechar banco:", err.message);
-        reject(err);
-      } else {
-        console.log("Banco fechado.");
-        resolve();
-      }
-    });
-  });
-});
-
 describe("Testes de Autenticação", () => {
 
   test("Deve registrar um novo usuário", async () => {
@@ -71,5 +53,23 @@ describe("Testes de Autenticação", () => {
 
     expect(res.statusCode).toBe(200);
     expect(res.body).toHaveProperty("id");
+  });
+});
+
+afterAll((done) => {
+  server.close(done);
+});
+
+afterAll(async () => {
+  return new Promise((resolve, reject) => {
+    db.close((err) => {
+      if (err) {
+        console.error("Erro ao fechar banco:", err.message);
+        reject(err);
+      } else {
+        console.log("Banco fechado.");
+        resolve();
+      }
+    });
   });
 });
