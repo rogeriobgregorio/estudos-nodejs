@@ -64,7 +64,6 @@ Este projeto foi desenvolvido como parte de um trabalho acadêmico com o objetiv
 - Node.js / Express
 - SQLite
 - Postman (para testes)
-- HTML/CSS para as páginas de cadastro
 - JavaScript
 - MVC Pattern
 
