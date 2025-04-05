@@ -74,7 +74,7 @@ Criar uma função que gera um array contendo os primeiros **N** números pares.
 ## 🛠️ Como Executar
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/estudos-nodejs.git
+   git clone https://github.com/rogeriobgregorio/estudos-nodejs.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
