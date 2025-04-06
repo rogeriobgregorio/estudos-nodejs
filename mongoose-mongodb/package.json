@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.13.2",
+    "xlsx": "^0.18.5"
+  },
+  "type": "module",
+  "name": "mongoose-mongodb",
+  "version": "1.0.0",
+  "description": "A simple Node.js application using Mongoose to connect to MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
