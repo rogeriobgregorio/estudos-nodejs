@@ -1,5 +1,11 @@
 # </> Sistema de Gerenciamento de Produtos
 
+**Integrantes**:
+- Rogério Bernardo Gregório
+- Gabriel Vasques de Abreu
+
+---
+
 Este projeto é uma API REST criada com **Node.js**, **Express** e **SQLite**, seguindo o padrão **MVC**. Ela permite o cadastro, atualização, listagem e exclusão de **usuários** e **produtos**, com **validações**, **logs de operações**, **tratamento de erros** e **documentação de endpoints**.
 
 ---
