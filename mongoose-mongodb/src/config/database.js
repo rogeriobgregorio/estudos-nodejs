@@ -1,40 +1,63 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import createLogger from "../utils/logger.js";
 
-// Carrega as variáveis de ambiente do arquivo .env
+const logger = createLogger(import.meta.url);
+
 dotenv.config();
 
-const MAX_RETRIES = 5; // Número máximo de tentativas
+const MONGO_URI = process.env.MONGO_URI;
+const MAX_RETRIES = 5;
 let attempts = 0;
 
+mongoose.connection.on("disconnected", () => {
+  logger.warn("⚠️ MongoDB desconectado!");
+});
+
+mongoose.connection.on("error", (err) => {
+  logger.error("❌ Erro na conexão com o MongoDB:", err);
+});
+
+/**
+ * Conecta ao MongoDB usando Mongoose
+ * @returns {Promise<void>} - Promise que resolve quando a conexão é estabelecida
+ */
 export const connectToDatabase = async () => {
-
   try {
-    const uri = process.env.MONGO_URI;
-    await mongoose.connect(uri);
+    if (mongoose.connection.readyState === 1) {
+      logger.info("🔁 Conexão já estabelecida com o MongoDB!");
+      return;
+    }
 
-    console.log("✅ MongoDB conectado com sucesso!");
+    logger.info("🔗 Estabelecendo conexão com o MongoDB...");
+    await mongoose.connect(MONGO_URI);
+    logger.info("✅ MongoDB conectado com sucesso!");
+
   } catch (error) {
     attempts++;
-    console.error(`❌ Tentativa ${attempts} de ${MAX_RETRIES} para conectar ao MongoDB falhou.`);
-    console.error("Erro:", error.message);
+    logger.error(`❌ Tentativa ${attempts}/${MAX_RETRIES} falhou: ${error.message}`);
 
-    // Se o número máximo de tentativas for alcançado, encerra o processo
     if (attempts < MAX_RETRIES) {
-      setTimeout(() => connectToDatabase(), 5000); // Tenta novamente após 5 segundos
+      logger.info("⏳ Tentando novamente em 5 segundos...");
+      setTimeout(() => connectToDatabase(), 5000);
+
     } else {
-      console.error("❌ Numero máximo de tentativas alcançado. Encerrando o processo.");
-      process.exit(1); // Finaliza o processo após várias tentativas falhas
+      logger.error("❌ Numero máximo de tentativas alcançado. Encerrando o processo.");
+      process.exit(1);
     }
   }
+};
 
-  // O evento 'disconnected' pode ser útil para lidar com desconexões inesperadas
-  mongoose.connection.on("disconnected", () => {
-    console.log("⚠️ MongoDB desconectado!");
-  });
-
-  // Outro tipo de erro (ex: falhas de rede, etc.)
-  mongoose.connection.on("error", (err) => {
-    console.error("❌ Erro na conexão com o MongoDB:", err);
-  });
+/**
+ * Desconecta do MongoDB usando Mongoose
+ * @returns {Promise<void>} - Promise que resolve quando a desconexão é concluída
+ */
+export const disconnectFromDatabase = async () => {
+  try {
+    logger.info("🔌 Encerrando conexão com MongoDB...");
+    await mongoose.disconnect();
+    logger.info("✅ Desconexão realizada com sucesso.");
+  } catch (error) {
+    logger.error("❌ Erro ao desconectar:", error.message);
+  }
 };
