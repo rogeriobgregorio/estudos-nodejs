@@ -1,17 +1,23 @@
 {
   "dependencies": {
     "dotenv": "^16.4.7",
+    "json2csv": "^6.0.0-alpha.2",
     "mongoose": "^8.13.2",
-    "xlsx": "^0.18.5"
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "type": "module",
   "name": "mongoose-mongodb",
   "version": "1.0.0",
   "description": "A simple Node.js application using Mongoose to connect to MongoDB.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Rogério Gregório",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
