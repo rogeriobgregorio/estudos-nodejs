@@ -44,6 +44,6 @@ const pokemonReportSchema = new mongoose.Schema(
 
 // Exportando o modelo Pokémon
 export const PokemonReport = mongoose.model(
-  "PokemonReport",
+  "Pokemon",
   pokemonReportSchema
 );
