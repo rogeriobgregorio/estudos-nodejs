@@ -3,6 +3,8 @@ import { exportToJson, exportToCsv } from "../utils/exportUtils.js";
 import { mapToExportFormat } from "../utils/mapFieldsToRaw.js";
 import mongoose from "mongoose";
 import createLogger from "../utils/logger.js";
+import { projectionFromFieldMap } from "../utils/projectionFromFieldMap.js";
+
 
 const logger = createLogger(import.meta.url);
 
@@ -18,9 +20,11 @@ export const exportPokemonReports = async (fieldMap, fileName) => {
     await connectToDatabase();
     logger.info("🔄 Buscando dados de Pokémon...");
 
+    const projection = projectionFromFieldMap(fieldMap);
+
     const pokemons = await mongoose.connection
       .collection("pokemon")
-      .find()
+      .find({}, { projection })
       .toArray();
 
     if (!pokemons.length) {
@@ -37,7 +41,6 @@ export const exportPokemonReports = async (fieldMap, fileName) => {
     exportToCsv(fileName, exportData);
 
     logger.info("✅ Exportação concluída com sucesso!");
-
   } catch (error) {
     logger.error("❌ Erro durante a exportação:", error.message);
   } finally {
