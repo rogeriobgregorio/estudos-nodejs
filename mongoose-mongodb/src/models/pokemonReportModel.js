@@ -3,47 +3,52 @@ import mongoose from "mongoose";
 // Definindo o esquema para o modelo Pokemon
 const pokemonReportSchema = new mongoose.Schema(
   {
-    name: {
+    Nome: {
       type: String,
       required: true,
     },
-    nationalDexNumber: {
+    "Número na Pokédex": {
       type: Number,
       required: true,
       unique: true,
     },
-    primaryTyping: {
+    "Tipo Primário": {
       type: String,
       required: true,
     },
-    secondaryTyping: {
+    "Tipo Secundário": {
       type: String,
       required: false,
     },
-    generation: {
+    Geração: {
       type: String,
       required: true,
     },
-    baseStatTotal: {
+    "Total de Pontos Base": {
       type: Number,
       required: true,
       min: 0,
     },
-    evolutionStage: {
+    "Estágio de Evolução": {
       type: String,
       required: true,
     },
-    numberOfEvolutions: {
+    "Quantidade de Evoluções": {
       type: Number,
       required: true,
       min: 1,
     },
+    lastSyncedAt: {
+      type: Date,
+      default: Date.now,
+    },
   },
-  { timestamps: true } // Adiciona createdAt e updatedAt automaticamente
+  { timestamps: true }
 );
 
 // Exportando o modelo Pokémon
 export const PokemonReport = mongoose.model(
-  "Pokemon",
-  pokemonReportSchema
+  "PokemonReport",
+  pokemonReportSchema,
+  "pokemon_report"
 );
