@@ -1,10 +1,13 @@
-import { connectToDatabase, disconnectFromDatabase } from "../config/database.js";
+import {
+  connectToDatabase,
+  disconnectFromDatabase,
+} from "../config/database.js";
 import { exportToJson, exportToCsv } from "../utils/exportUtils.js";
 import { mapToExportFormat } from "../utils/mapFieldsToRaw.js";
 import mongoose from "mongoose";
 import createLogger from "../utils/logger.js";
 import { projectionFromFieldMap } from "../utils/projectionFromFieldMap.js";
-
+import { PokemonReport } from "../models/pokemonReportModel.js";
 
 const logger = createLogger(import.meta.url);
 
@@ -22,9 +25,14 @@ export const exportPokemonReports = async (fieldMap, fileName) => {
 
     const projection = projectionFromFieldMap(fieldMap);
 
+    const excludedFormsRegex = /-mega|-starter|-gmax|-galar|-alola|-hisui|-paldea|-battle-bond/i;
+
     const pokemons = await mongoose.connection
       .collection("pokemon")
-      .find({}, { projection })
+      .find(
+        { Name: { $not: excludedFormsRegex } },
+        { projection }
+      )
       .toArray();
 
     if (!pokemons.length) {
@@ -40,9 +48,21 @@ export const exportPokemonReports = async (fieldMap, fileName) => {
     exportToJson(fileName, exportData);
     exportToCsv(fileName, exportData);
 
-    logger.info("✅ Exportação concluída com sucesso!");
+    logger.info("📤 Fazendo upsert na coleção 'pokemon_report'...");
+    const operations = exportData.map((pokemon) => ({
+      updateOne: {
+        filter: { "Número na Pokédex": pokemon["Número na Pokédex"] },
+        update: { $set: pokemon },
+        upsert: true,
+      },
+    }));
+
+    const result = await PokemonReport.bulkWrite(operations);
+    logger.info(
+      `✅ Upserts realizados: ${result.upsertedCount}, atualizações: ${result.modifiedCount}`
+    );
   } catch (error) {
-    logger.error("❌ Erro durante a exportação:", error.message);
+    logger.error("❌ Erro durante a exportação:", error);
   } finally {
     await disconnectFromDatabase();
   }
