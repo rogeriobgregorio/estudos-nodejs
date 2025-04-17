@@ -30,16 +30,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "venusaur-mega",
-    "Número na Pokédex": 3,
-    "Tipo Primário": "grass",
-    "Tipo Secundário": "poison",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 625,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "charmander",
     "Número na Pokédex": 4,
     "Tipo Primário": "fire",
@@ -70,26 +60,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "charizard-mega-x",
-    "Número na Pokédex": 6,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "dragon",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 634,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "charizard-mega-y",
-    "Número na Pokédex": 6,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 634,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "squirtle",
     "Número na Pokédex": 7,
     "Tipo Primário": "water",
@@ -116,16 +86,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 530,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "blastoise-mega",
-    "Número na Pokédex": 9,
-    "Tipo Primário": "water",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 630,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -190,16 +150,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "beedrill-mega",
-    "Número na Pokédex": 15,
-    "Tipo Primário": "bug",
-    "Tipo Secundário": "poison",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 495,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "pidgey",
     "Número na Pokédex": 16,
     "Tipo Primário": "normal",
@@ -230,16 +180,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "pidgeot-mega",
-    "Número na Pokédex": 18,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 579,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "rattata",
     "Número na Pokédex": 19,
     "Tipo Primário": "normal",
@@ -250,40 +190,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "rattata-alola",
-    "Número na Pokédex": 19,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "normal",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 253,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "raticate",
     "Número na Pokédex": 20,
     "Tipo Primário": "normal",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 413,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "raticate-alola",
-    "Número na Pokédex": 20,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "normal",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 413,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "raticate-totem-alola",
-    "Número na Pokédex": 20,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "normal",
     "Geração": "generation-i",
     "Total de Pontos Base": 413,
     "Estágio de Evolução": 2,
@@ -340,30 +250,10 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "pikachu-starter",
-    "Número na Pokédex": 25,
-    "Tipo Primário": "electric",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 430,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "raichu",
     "Número na Pokédex": 26,
     "Tipo Primário": "electric",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 485,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "raichu-alola",
-    "Número na Pokédex": 26,
-    "Tipo Primário": "electric",
-    "Tipo Secundário": "psychic",
     "Geração": "generation-i",
     "Total de Pontos Base": 485,
     "Estágio de Evolução": 3,
@@ -380,30 +270,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "sandshrew-alola",
-    "Número na Pokédex": 27,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "steel",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 300,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "sandslash",
     "Número na Pokédex": 28,
     "Tipo Primário": "ground",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 450,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "sandslash-alola",
-    "Número na Pokédex": 28,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "steel",
     "Geração": "generation-i",
     "Total de Pontos Base": 450,
     "Estágio de Evolução": 2,
@@ -500,30 +370,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "vulpix-alola",
-    "Número na Pokédex": 37,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 299,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "ninetales",
     "Número na Pokédex": 38,
     "Tipo Primário": "fire",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 505,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "ninetales-alola",
-    "Número na Pokédex": 38,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "fairy",
     "Geração": "generation-i",
     "Total de Pontos Base": 505,
     "Estágio de Evolução": 2,
@@ -650,30 +500,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "diglett-alola",
-    "Número na Pokédex": 50,
-    "Tipo Primário": "ground",
-    "Tipo Secundário": "steel",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 265,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "dugtrio",
     "Número na Pokédex": 51,
     "Tipo Primário": "ground",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 425,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "dugtrio-alola",
-    "Número na Pokédex": 51,
-    "Tipo Primário": "ground",
-    "Tipo Secundário": "steel",
     "Geração": "generation-i",
     "Total de Pontos Base": 425,
     "Estágio de Evolução": 2,
@@ -690,39 +520,9 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "meowth-alola",
-    "Número na Pokédex": 52,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 290,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "meowth-galar",
-    "Número na Pokédex": 52,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 290,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "persian",
     "Número na Pokédex": 53,
     "Tipo Primário": "normal",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 440,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "persian-alola",
-    "Número na Pokédex": 53,
-    "Tipo Primário": "dark",
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 440,
@@ -780,30 +580,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "growlithe-hisui",
-    "Número na Pokédex": 58,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "rock",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 350,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "arcanine",
     "Número na Pokédex": 59,
     "Tipo Primário": "fire",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 555,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "arcanine-hisui",
-    "Número na Pokédex": 59,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "rock",
     "Geração": "generation-i",
     "Total de Pontos Base": 555,
     "Estágio de Evolução": 2,
@@ -866,16 +646,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 500,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "alakazam-mega",
-    "Número na Pokédex": 65,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 600,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -970,30 +740,10 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "geodude-alola",
-    "Número na Pokédex": 74,
-    "Tipo Primário": "rock",
-    "Tipo Secundário": "electric",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 300,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "graveler",
     "Número na Pokédex": 75,
     "Tipo Primário": "rock",
     "Tipo Secundário": "ground",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 390,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "graveler-alola",
-    "Número na Pokédex": 75,
-    "Tipo Primário": "rock",
-    "Tipo Secundário": "electric",
     "Geração": "generation-i",
     "Total de Pontos Base": 390,
     "Estágio de Evolução": 2,
@@ -1010,29 +760,9 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "golem-alola",
-    "Número na Pokédex": 76,
-    "Tipo Primário": "rock",
-    "Tipo Secundário": "electric",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 495,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "ponyta",
     "Número na Pokédex": 77,
     "Tipo Primário": "fire",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 410,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "ponyta-galar",
-    "Número na Pokédex": 77,
-    "Tipo Primário": "psychic",
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 410,
@@ -1050,16 +780,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "rapidash-galar",
-    "Número na Pokédex": 78,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 500,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "slowpoke",
     "Número na Pokédex": 79,
     "Tipo Primário": "water",
@@ -1070,39 +790,9 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "slowpoke-galar",
-    "Número na Pokédex": 79,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 315,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "slowbro",
     "Número na Pokédex": 80,
     "Tipo Primário": "water",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "slowbro-mega",
-    "Número na Pokédex": 80,
-    "Tipo Primário": "water",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 590,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "slowbro-galar",
-    "Número na Pokédex": 80,
-    "Tipo Primário": "poison",
     "Tipo Secundário": "psychic",
     "Geração": "generation-i",
     "Total de Pontos Base": 490,
@@ -1134,16 +824,6 @@
     "Número na Pokédex": 83,
     "Tipo Primário": "normal",
     "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 377,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "farfetchd-galar",
-    "Número na Pokédex": 83,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 377,
     "Estágio de Evolução": 1,
@@ -1200,30 +880,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "grimer-alola",
-    "Número na Pokédex": 88,
-    "Tipo Primário": "poison",
-    "Tipo Secundário": "dark",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 325,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "muk",
     "Número na Pokédex": 89,
     "Tipo Primário": "poison",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 500,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "muk-alola",
-    "Número na Pokédex": 89,
-    "Tipo Primário": "poison",
-    "Tipo Secundário": "dark",
     "Geração": "generation-i",
     "Total de Pontos Base": 500,
     "Estágio de Evolução": 2,
@@ -1276,16 +936,6 @@
     "Tipo Secundário": "poison",
     "Geração": "generation-i",
     "Total de Pontos Base": 500,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "gengar-mega",
-    "Número na Pokédex": 94,
-    "Tipo Primário": "ghost",
-    "Tipo Secundário": "poison",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 600,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -1350,30 +1000,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "voltorb-hisui",
-    "Número na Pokédex": 100,
-    "Tipo Primário": "electric",
-    "Tipo Secundário": "grass",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 330,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "electrode",
     "Número na Pokédex": 101,
     "Tipo Primário": "electric",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "electrode-hisui",
-    "Número na Pokédex": 101,
-    "Tipo Primário": "electric",
-    "Tipo Secundário": "grass",
     "Geração": "generation-i",
     "Total de Pontos Base": 490,
     "Estágio de Evolução": 2,
@@ -1400,16 +1030,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "exeggutor-alola",
-    "Número na Pokédex": 103,
-    "Tipo Primário": "grass",
-    "Tipo Secundário": "dragon",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 530,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "cubone",
     "Número na Pokédex": 104,
     "Tipo Primário": "ground",
@@ -1424,16 +1044,6 @@
     "Número na Pokédex": 105,
     "Tipo Primário": "ground",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 425,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "marowak-alola",
-    "Número na Pokédex": 105,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "ghost",
     "Geração": "generation-i",
     "Total de Pontos Base": 425,
     "Estágio de Evolução": 2,
@@ -1500,16 +1110,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "weezing-galar",
-    "Número na Pokédex": 110,
-    "Tipo Primário": "poison",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "rhyhorn",
     "Número na Pokédex": 111,
     "Tipo Primário": "ground",
@@ -1556,16 +1156,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 490,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "kangaskhan-mega",
-    "Número na Pokédex": 115,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 590,
     "Estágio de Evolução": 1,
     "Quantidade de Evoluções": 1
   },
@@ -1640,16 +1230,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "mr-mime-galar",
-    "Número na Pokédex": 122,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 460,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "scyther",
     "Número na Pokédex": 123,
     "Tipo Primário": "bug",
@@ -1700,50 +1280,10 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "pinsir-mega",
-    "Número na Pokédex": 127,
-    "Tipo Primário": "bug",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 600,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "tauros",
     "Número na Pokédex": 128,
     "Tipo Primário": "normal",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "tauros-paldea-combat-breed",
-    "Número na Pokédex": 128,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "tauros-paldea-blaze-breed",
-    "Número na Pokédex": 128,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "fire",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "tauros-paldea-aqua-breed",
-    "Número na Pokédex": 128,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "water",
     "Geração": "generation-i",
     "Total de Pontos Base": 490,
     "Estágio de Evolução": 1,
@@ -1766,16 +1306,6 @@
     "Tipo Secundário": "flying",
     "Geração": "generation-i",
     "Total de Pontos Base": 540,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "gyarados-mega",
-    "Número na Pokédex": 130,
-    "Tipo Primário": "water",
-    "Tipo Secundário": "dark",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 640,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -1806,16 +1336,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 325,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "eevee-starter",
-    "Número na Pokédex": 133,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 435,
     "Estágio de Evolução": 1,
     "Quantidade de Evoluções": 2
   },
@@ -1910,16 +1430,6 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "aerodactyl-mega",
-    "Número na Pokédex": 142,
-    "Tipo Primário": "rock",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 615,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "snorlax",
     "Número na Pokédex": 143,
     "Tipo Primário": "normal",
@@ -1940,16 +1450,6 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "articuno-galar",
-    "Número na Pokédex": 144,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 580,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "zapdos",
     "Número na Pokédex": 145,
     "Tipo Primário": "electric",
@@ -1960,29 +1460,9 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "zapdos-galar",
-    "Número na Pokédex": 145,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 580,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "moltres",
     "Número na Pokédex": 146,
     "Tipo Primário": "fire",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 580,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "moltres-galar",
-    "Número na Pokédex": 146,
-    "Tipo Primário": "dark",
     "Tipo Secundário": "flying",
     "Geração": "generation-i",
     "Total de Pontos Base": 580,
@@ -2026,26 +1506,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-i",
     "Total de Pontos Base": 680,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "mewtwo-mega-x",
-    "Número na Pokédex": 150,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "fighting",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 780,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "mewtwo-mega-y",
-    "Número na Pokédex": 150,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-i",
-    "Total de Pontos Base": 780,
     "Estágio de Evolução": 1,
     "Quantidade de Evoluções": 1
   },
@@ -2114,16 +1574,6 @@
     "Número na Pokédex": 157,
     "Tipo Primário": "fire",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 534,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "typhlosion-hisui",
-    "Número na Pokédex": 157,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "ghost",
     "Geração": "generation-ii",
     "Total de Pontos Base": 534,
     "Estágio de Evolução": 3,
@@ -2370,16 +1820,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "ampharos-mega",
-    "Número na Pokédex": 181,
-    "Tipo Primário": "electric",
-    "Tipo Secundário": "dragon",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 610,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "bellossom",
     "Número na Pokédex": 182,
     "Tipo Primário": "grass",
@@ -2510,16 +1950,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "wooper-paldea",
-    "Número na Pokédex": 194,
-    "Tipo Primário": "poison",
-    "Tipo Secundário": "ground",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 210,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "quagsire",
     "Número na Pokédex": 195,
     "Tipo Primário": "water",
@@ -2563,16 +1993,6 @@
     "Nome": "slowking",
     "Número na Pokédex": 199,
     "Tipo Primário": "water",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 490,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "slowking-galar",
-    "Número na Pokédex": 199,
-    "Tipo Primário": "poison",
     "Tipo Secundário": "psychic",
     "Geração": "generation-ii",
     "Total de Pontos Base": 490,
@@ -2670,16 +2090,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "steelix-mega",
-    "Número na Pokédex": 208,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "ground",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 610,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "snubbull",
     "Número na Pokédex": 209,
     "Tipo Primário": "fairy",
@@ -2710,32 +2120,12 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "qwilfish-hisui",
-    "Número na Pokédex": 211,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "poison",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 440,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "scizor",
     "Número na Pokédex": 212,
     "Tipo Primário": "bug",
     "Tipo Secundário": "steel",
     "Geração": "generation-ii",
     "Total de Pontos Base": 500,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "scizor-mega",
-    "Número na Pokédex": 212,
-    "Tipo Primário": "bug",
-    "Tipo Secundário": "steel",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 600,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -2760,30 +2150,10 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "heracross-mega",
-    "Número na Pokédex": 214,
-    "Tipo Primário": "bug",
-    "Tipo Secundário": "fighting",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 600,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "sneasel",
     "Número na Pokédex": 215,
     "Tipo Primário": "dark",
     "Tipo Secundário": "ice",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 430,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "sneasel-hisui",
-    "Número na Pokédex": 215,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "poison",
     "Geração": "generation-ii",
     "Total de Pontos Base": 430,
     "Estágio de Evolução": 1,
@@ -2860,16 +2230,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "corsola-galar",
-    "Número na Pokédex": 222,
-    "Tipo Primário": "ghost",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 410,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "remoraid",
     "Número na Pokédex": 223,
     "Tipo Primário": "water",
@@ -2936,16 +2296,6 @@
     "Tipo Secundário": "fire",
     "Geração": "generation-ii",
     "Total de Pontos Base": 500,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "houndoom-mega",
-    "Número na Pokédex": 229,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "fire",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 600,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -3140,16 +2490,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "tyranitar-mega",
-    "Número na Pokédex": 248,
-    "Tipo Primário": "rock",
-    "Tipo Secundário": "dark",
-    "Geração": "generation-ii",
-    "Total de Pontos Base": 700,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "lugia",
     "Número na Pokédex": 249,
     "Tipo Primário": "psychic",
@@ -3210,16 +2550,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "sceptile-mega",
-    "Número na Pokédex": 254,
-    "Tipo Primário": "grass",
-    "Tipo Secundário": "dragon",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 630,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "torchic",
     "Número na Pokédex": 255,
     "Tipo Primário": "fire",
@@ -3246,16 +2576,6 @@
     "Tipo Secundário": "fighting",
     "Geração": "generation-iii",
     "Total de Pontos Base": 530,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "blaziken-mega",
-    "Número na Pokédex": 257,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "fighting",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 630,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -3290,16 +2610,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "swampert-mega",
-    "Número na Pokédex": 260,
-    "Tipo Primário": "water",
-    "Tipo Secundário": "ground",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 635,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "poochyena",
     "Número na Pokédex": 261,
     "Tipo Primário": "dark",
@@ -3330,30 +2640,10 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "zigzagoon-galar",
-    "Número na Pokédex": 263,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "normal",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 240,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "linoone",
     "Número na Pokédex": 264,
     "Tipo Primário": "normal",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 420,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "linoone-galar",
-    "Número na Pokédex": 264,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "normal",
     "Geração": "generation-iii",
     "Total de Pontos Base": 420,
     "Estágio de Evolução": 2,
@@ -3536,16 +2826,6 @@
     "Tipo Secundário": "fairy",
     "Geração": "generation-iii",
     "Total de Pontos Base": 518,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "gardevoir-mega",
-    "Número na Pokédex": 282,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 618,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -3750,32 +3030,12 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "sableye-mega",
-    "Número na Pokédex": 302,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "ghost",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 480,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "mawile",
     "Número na Pokédex": 303,
     "Tipo Primário": "steel",
     "Tipo Secundário": "fairy",
     "Geração": "generation-iii",
     "Total de Pontos Base": 380,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "mawile-mega",
-    "Número na Pokédex": 303,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 480,
     "Estágio de Evolução": 1,
     "Quantidade de Evoluções": 1
   },
@@ -3810,16 +3070,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "aggron-mega",
-    "Número na Pokédex": 306,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 630,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "meditite",
     "Número na Pokédex": 307,
     "Tipo Primário": "fighting",
@@ -3840,16 +3090,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "medicham-mega",
-    "Número na Pokédex": 308,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 510,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "electrike",
     "Número na Pokédex": 309,
     "Tipo Primário": "electric",
@@ -3866,16 +3106,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-iii",
     "Total de Pontos Base": 475,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "manectric-mega",
-    "Número na Pokédex": 310,
-    "Tipo Primário": "electric",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 575,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -3970,16 +3200,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "sharpedo-mega",
-    "Número na Pokédex": 319,
-    "Tipo Primário": "water",
-    "Tipo Secundário": "dark",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 560,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "wailmer",
     "Número na Pokédex": 320,
     "Tipo Primário": "water",
@@ -4016,16 +3236,6 @@
     "Tipo Secundário": "ground",
     "Geração": "generation-iii",
     "Total de Pontos Base": 460,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "camerupt-mega",
-    "Número na Pokédex": 323,
-    "Tipo Primário": "fire",
-    "Tipo Secundário": "ground",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 560,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -4136,16 +3346,6 @@
     "Tipo Secundário": "flying",
     "Geração": "generation-iii",
     "Total de Pontos Base": 490,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "altaria-mega",
-    "Número na Pokédex": 334,
-    "Tipo Primário": "dragon",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 590,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -4380,16 +3580,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "banette-mega",
-    "Número na Pokédex": 354,
-    "Tipo Primário": "ghost",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 555,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "duskull",
     "Número na Pokédex": 355,
     "Tipo Primário": "ghost",
@@ -4440,16 +3630,6 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "absol-mega",
-    "Número na Pokédex": 359,
-    "Tipo Primário": "dark",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 565,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "wynaut",
     "Número na Pokédex": 360,
     "Tipo Primário": "psychic",
@@ -4476,16 +3656,6 @@
     "Tipo Secundário": "N/A",
     "Geração": "generation-iii",
     "Total de Pontos Base": 480,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "glalie-mega",
-    "Número na Pokédex": 362,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 580,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -4600,16 +3770,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "salamence-mega",
-    "Número na Pokédex": 373,
-    "Tipo Primário": "dragon",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 700,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "beldum",
     "Número na Pokédex": 374,
     "Tipo Primário": "steel",
@@ -4636,16 +3796,6 @@
     "Tipo Secundário": "psychic",
     "Geração": "generation-iii",
     "Total de Pontos Base": 600,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "metagross-mega",
-    "Número na Pokédex": 376,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 700,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -4690,32 +3840,12 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "latias-mega",
-    "Número na Pokédex": 380,
-    "Tipo Primário": "dragon",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 700,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "latios",
     "Número na Pokédex": 381,
     "Tipo Primário": "dragon",
     "Tipo Secundário": "psychic",
     "Geração": "generation-iii",
     "Total de Pontos Base": 600,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "latios-mega",
-    "Número na Pokédex": 381,
-    "Tipo Primário": "dragon",
-    "Tipo Secundário": "psychic",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 700,
     "Estágio de Evolução": 1,
     "Quantidade de Evoluções": 1
   },
@@ -4766,16 +3896,6 @@
     "Tipo Secundário": "flying",
     "Geração": "generation-iii",
     "Total de Pontos Base": 680,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
-    "Nome": "rayquaza-mega",
-    "Número na Pokédex": 384,
-    "Tipo Primário": "dragon",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-iii",
-    "Total de Pontos Base": 780,
     "Estágio de Evolução": 1,
     "Quantidade de Evoluções": 1
   },
@@ -5240,16 +4360,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "lopunny-mega",
-    "Número na Pokédex": 428,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "fighting",
-    "Geração": "generation-iv",
-    "Total de Pontos Base": 580,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "mismagius",
     "Número na Pokédex": 429,
     "Tipo Primário": "ghost",
@@ -5420,16 +4530,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "garchomp-mega",
-    "Número na Pokédex": 445,
-    "Tipo Primário": "dragon",
-    "Tipo Secundário": "ground",
-    "Geração": "generation-iv",
-    "Total de Pontos Base": 700,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "munchlax",
     "Número na Pokédex": 446,
     "Tipo Primário": "normal",
@@ -5456,16 +4556,6 @@
     "Tipo Secundário": "steel",
     "Geração": "generation-iv",
     "Total de Pontos Base": 525,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "lucario-mega",
-    "Número na Pokédex": 448,
-    "Tipo Primário": "fighting",
-    "Tipo Secundário": "steel",
-    "Geração": "generation-iv",
-    "Total de Pontos Base": 625,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -5586,16 +4676,6 @@
     "Tipo Secundário": "ice",
     "Geração": "generation-iv",
     "Total de Pontos Base": 494,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "abomasnow-mega",
-    "Número na Pokédex": 460,
-    "Tipo Primário": "grass",
-    "Tipo Secundário": "ice",
-    "Geração": "generation-iv",
-    "Total de Pontos Base": 594,
     "Estágio de Evolução": 2,
     "Quantidade de Evoluções": 2
   },
@@ -5746,16 +4826,6 @@
     "Tipo Secundário": "fighting",
     "Geração": "generation-iv",
     "Total de Pontos Base": 518,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "gallade-mega",
-    "Número na Pokédex": 475,
-    "Tipo Primário": "psychic",
-    "Tipo Secundário": "fighting",
-    "Geração": "generation-iv",
-    "Total de Pontos Base": 618,
     "Estágio de Evolução": 3,
     "Quantidade de Evoluções": 3
   },
@@ -6100,16 +5170,6 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "samurott-hisui",
-    "Número na Pokédex": 503,
-    "Tipo Primário": "water",
-    "Tipo Secundário": "dark",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 528,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "patrat",
     "Número na Pokédex": 504,
     "Tipo Primário": "normal",
@@ -6390,16 +5450,6 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "audino-mega",
-    "Número na Pokédex": 531,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 545,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "timburr",
     "Número na Pokédex": 532,
     "Tipo Primário": "fighting",
@@ -6580,16 +5630,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "lilligant-hisui",
-    "Número na Pokédex": 549,
-    "Tipo Primário": "grass",
-    "Tipo Secundário": "fighting",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 480,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "basculin-red-striped",
     "Número na Pokédex": 550,
     "Tipo Primário": "water",
@@ -6640,16 +5680,6 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "darumaka-galar",
-    "Número na Pokédex": 554,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 315,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "darmanitan-standard",
     "Número na Pokédex": 555,
     "Tipo Primário": "fire",
@@ -6664,26 +5694,6 @@
     "Número na Pokédex": 555,
     "Tipo Primário": "fire",
     "Tipo Secundário": "psychic",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 540,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "darmanitan-galar-standard",
-    "Número na Pokédex": 555,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "N/A",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 480,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "darmanitan-galar-zen",
-    "Número na Pokédex": 555,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "fire",
     "Geração": "generation-v",
     "Total de Pontos Base": 540,
     "Estágio de Evolução": 2,
@@ -6754,16 +5764,6 @@
     "Número na Pokédex": 562,
     "Tipo Primário": "ghost",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 303,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "yamask-galar",
-    "Número na Pokédex": 562,
-    "Tipo Primário": "ground",
-    "Tipo Secundário": "ghost",
     "Geração": "generation-v",
     "Total de Pontos Base": 303,
     "Estágio de Evolução": 1,
@@ -6850,30 +5850,10 @@
     "Quantidade de Evoluções": 2
   },
   {
-    "Nome": "zorua-hisui",
-    "Número na Pokédex": 570,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "ghost",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 330,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 2
-  },
-  {
     "Nome": "zoroark",
     "Número na Pokédex": 571,
     "Tipo Primário": "dark",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 510,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "zoroark-hisui",
-    "Número na Pokédex": 571,
-    "Tipo Primário": "normal",
-    "Tipo Secundário": "ghost",
     "Geração": "generation-v",
     "Total de Pontos Base": 510,
     "Estágio de Evolução": 2,
@@ -7350,16 +6330,6 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "stunfisk-galar",
-    "Número na Pokédex": 618,
-    "Tipo Primário": "ground",
-    "Tipo Secundário": "steel",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 471,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "mienfoo",
     "Número na Pokédex": 619,
     "Tipo Primário": "fighting",
@@ -7453,16 +6423,6 @@
     "Nome": "braviary",
     "Número na Pokédex": 628,
     "Tipo Primário": "normal",
-    "Tipo Secundário": "flying",
-    "Geração": "generation-v",
-    "Total de Pontos Base": 510,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "braviary-hisui",
-    "Número na Pokédex": 628,
-    "Tipo Primário": "psychic",
     "Tipo Secundário": "flying",
     "Geração": "generation-v",
     "Total de Pontos Base": 510,
@@ -8290,30 +7250,10 @@
     "Quantidade de Evoluções": 3
   },
   {
-    "Nome": "sliggoo-hisui",
-    "Número na Pokédex": 705,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "dragon",
-    "Geração": "generation-vi",
-    "Total de Pontos Base": 452,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 3
-  },
-  {
     "Nome": "goodra",
     "Número na Pokédex": 706,
     "Tipo Primário": "dragon",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-vi",
-    "Total de Pontos Base": 600,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "goodra-hisui",
-    "Número na Pokédex": 706,
-    "Tipo Primário": "steel",
-    "Tipo Secundário": "dragon",
     "Geração": "generation-vi",
     "Total de Pontos Base": 600,
     "Estágio de Evolução": 3,
@@ -8384,16 +7324,6 @@
     "Número na Pokédex": 713,
     "Tipo Primário": "ice",
     "Tipo Secundário": "N/A",
-    "Geração": "generation-vi",
-    "Total de Pontos Base": 514,
-    "Estágio de Evolução": 2,
-    "Quantidade de Evoluções": 2
-  },
-  {
-    "Nome": "avalugg-hisui",
-    "Número na Pokédex": 713,
-    "Tipo Primário": "ice",
-    "Tipo Secundário": "rock",
     "Geração": "generation-vi",
     "Total de Pontos Base": 514,
     "Estágio de Evolução": 2,
@@ -8490,16 +7420,6 @@
     "Quantidade de Evoluções": 1
   },
   {
-    "Nome": "diancie-mega",
-    "Número na Pokédex": 719,
-    "Tipo Primário": "rock",
-    "Tipo Secundário": "fairy",
-    "Geração": "generation-vi",
-    "Total de Pontos Base": 700,
-    "Estágio de Evolução": 1,
-    "Quantidade de Evoluções": 1
-  },
-  {
     "Nome": "hoopa",
     "Número na Pokédex": 720,
     "Tipo Primário": "psychic",
@@ -8554,16 +7474,6 @@
     "Número na Pokédex": 724,
     "Tipo Primário": "grass",
     "Tipo Secundário": "ghost",
-    "Geração": "generation-vii",
-    "Total de Pontos Base": 530,
-    "Estágio de Evolução": 3,
-    "Quantidade de Evoluções": 3
-  },
-  {
-    "Nome": "decidueye-hisui",
-    "Número na Pokédex": 724,
-    "Tipo Primário": "grass",
-    "Tipo Secundário": "fighting",
     "Geração": "generation-vii",
     "Total de Pontos Base": 530,
     "Estágio de Evolução": 3,
