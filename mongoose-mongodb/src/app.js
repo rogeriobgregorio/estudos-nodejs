@@ -1,14 +1,20 @@
-import { exportPokemonReports } from "./services/pokemonService.js";
+import express from "express";
+import  { connectToDatabase } from "./config/database.js";
+import pokemonReportRoutes from "./presentation/routes/pokemonReportRoutes.js";
 
-const fieldMap = {
-  Nome: "Name",
-  "Número na Pokédex": "National Dex #",
-  "Tipo Primário": "Primary Typing",
-  "Tipo Secundário": "Secondary Typing",
-  Geração: "Generation",
-  "Total de Pontos Base": "Base Stat Total",
-  "Estágio de Evolução": "Evolution Stage",
-  "Quantidade de Evoluções": "Number of Evolution",
-};
+const app = express();
 
-exportPokemonReports(fieldMap, "pokemon_reports");
+app.use(express.json());
+
+// Conectar ao MongoDB
+connectToDatabase()
+
+// Rotas
+app.use("/pokemon-reports", pokemonReportRoutes);
+
+// Iniciar servidor
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
+});
+
