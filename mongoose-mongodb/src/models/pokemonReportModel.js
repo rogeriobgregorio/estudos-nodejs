@@ -37,13 +37,8 @@ const pokemonReportSchema = new mongoose.Schema(
       type: Number,
       required: true,
       min: 1,
-    },
-    lastSyncedAt: {
-      type: Date,
-      default: Date.now,
-    },
+    }
   },
-  { timestamps: true }
 );
 
 // Exportando o modelo Pokémon
