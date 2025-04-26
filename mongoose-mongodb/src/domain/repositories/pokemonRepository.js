@@ -19,3 +19,25 @@ export class PokemonReportRepository {
     throw new Error("Not implemented");
   }
 }
+
+export class PokemonGroupRepository {
+  async create(PokemonGroup) {
+    throw new Error("Not implemented");
+  }
+
+  async findAll() {
+    throw new Error("Not implemented");
+  }
+
+  async findById(id) {
+    throw new Error("Not implemented");
+  }
+
+  async updateById(id, PokemonGroup) {
+    throw new Error("Not implemented");
+  }
+
+  async deleteById(id) {
+    throw new Error("Not implemented");
+  }
+}
