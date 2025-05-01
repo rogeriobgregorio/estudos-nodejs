@@ -1,14 +1,16 @@
-## 🧪 **Teste Técnico (Fictício) – Relatório e Análise de Dados Pokémon**  
+# 🧪 **Teste Técnico (Fictício) – Relatório e Análise de Dados Pokémon**
+
 **Objetivo:** Criar um script (Node.js com Mongoose) que se conecte ao MongoDB, extraia e transforme dados da coleção `pokemon` e gere relatórios com base em critérios específicos.
 
 ---
 
-### 📚 **Contexto**
+## 📚 **Contexto**
+
 Você está atuando como analista de dados para um projeto que visa estudar características dos Pokémon da primeira à oitava geração, com o objetivo de entender padrões de evolução, atributos e tipagens.
 
 A base de dados já existe, e está acessível via:
 
-```
+```sh
 mongodb://localhost:27017/estudos_nodejs
 ```
 
@@ -19,6 +21,7 @@ Coleção: `pokemon`
 ### 🧩 **Etapas do Exercício**
 
 #### ✅ **Etapa 1 – Relatório Base**
+
 Crie um script que gere uma listagem com os seguintes campos:
 
 - Nome (`Name`)
@@ -30,10 +33,12 @@ Crie um script que gere uma listagem com os seguintes campos:
 - Quantidade de evoluções (`Number of Evolution`)
 
 Salve a listagem em:
+
 - `relatorio_pokemon.xlsx`
 - `relatorio_pokemon.json`
 
 #### ✅ **Etapa 2 – Agrupamento e Estatísticas**
+
 Adicione no script uma análise que responda:
 
 - Quantos Pokémon existem por **tipagem primária**
@@ -43,6 +48,7 @@ Adicione no script uma análise que responda:
 - Pokémon mais pesado e mais leve por geração (usando `Weight (lbs)`)
 
 #### ✅ **Etapa 3 – Evolução por Tipagem**
+
 Gere um relatório com todos os Pokémon que fazem parte de **linhas evolutivas de 3 estágios** (ex: Bulbasaur, Ivysaur, Venusaur), agrupados por sua **tipagem primária**. Para cada linha evolutiva, exiba:
 
 - Nome dos 3 estágios
@@ -51,6 +57,7 @@ Gere um relatório com todos os Pokémon que fazem parte de **linhas evolutivas 
 **Observação:** para identificar os Pokémon da mesma linha evolutiva, use o campo `Number of Evolution` e `Evolution Stage`.
 
 #### ✅ **Etapa 4 – Desempenho e Eficiência**
+
 Suponha que essa base irá crescer muito e ser usada por outras pessoas. Implemente:
 
 - Indexação (sugestão: crie um índice nos campos mais usados em consultas agregadas)
@@ -60,6 +67,7 @@ Suponha que essa base irá crescer muito e ser usada por outras pessoas. Impleme
 ---
 
 ### 💎 **Desafio Adicional (Opcional – Vale Pontos Extras)**
+
 Implemente uma função que detecte possíveis **Pokémon duplicados** na coleção com base nos seguintes critérios:
 
 - Mesmo nome (ignorar letras maiúsculas/minúsculas)
@@ -71,6 +79,7 @@ Liste esses duplicados e indique o possível motivo (ex: "variação de forma", 
 ---
 
 ### 📦 **Entrega Esperada**
+
 - Código organizado, preferencialmente com instruções de execução em um `README.md`
 - Scripts exportando arquivos `.json` e `.xlsx`
 - Comentários explicando partes importantes
@@ -79,9 +88,9 @@ Liste esses duplicados e indique o possível motivo (ex: "variação de forma", 
 ---
 
 ### 🧠 **O que será avaliado**
+
 - Clareza e organização do código
 - Eficiência nas consultas ao MongoDB
 - Uso de agregações e transformações
 - Capacidade de estruturar relatórios complexos
 - Boa estrutura de projeto
-
